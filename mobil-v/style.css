@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,500;1,700&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+.main{
+    background-image: url(./images/banner.jpg);
+    background-size:  cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    margin: auto;
+}
+.main h1{
+    font-size: 1.9em;
+    font-weight: 500;
+    color:  #25a2c3;
+}
+.main p{
+    padding-top: 15px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color:  #f04c2f;
+    border-radius: 5px;
+    transition: 0.7s ease;
+   
+}
+.heros{
+    text-align: center;
+    padding-top: 10px;
+}
+.f1{
+    width: 250px;
+    padding: 30px;
+    border-radius: 60%;
+    margin: auto;
+}
+.list h1{
+    color: #25a2c3;
+    padding: 20px;
+}
+.text{
+    width: 100%;
+    background-color: #f04c2f;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.text h1{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+}
+.text p{
+    color: white;
+    padding-top: 5px;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.text .pp{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+span{
+    font-size: 0.5em;
+}
+
+.card{
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.hh1{
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.crds h1{
+    color: #25a2c3;
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 20px;
+}
+.footer .titt-footer{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 450;
+}
+.icon i{
+    color: white;   
+}
+
+.icon a{
+    color: white;
+    padding: 5px;
+}
+
+.copy{
+    width: 60%;
+    border-top: 1px solid white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px; 
+}
+.copy p{
+    color: white;   
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,500;1,700&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+}
+.logo img{
+    width: 150px;
+}
+
+.main{
+    width: 100%;
+    height: 70vh;
+    padding: 100px;
+    text-align: center;
+    background-image: url(./images/banner.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+.main h1{
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: 900;
+    color: #25a2c3;
+}
+
+.main p{
+    padding-top: 30px;
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 35px;
+    font-size: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    transition: 0.7s ease;
+    
+   
+}
+
+.btn:hover{
+    background-color: #25a2c3;
+    transform: scale(1.1);
+}
+
+
+
+.banner{
+   display: inline;
+    padding-left: 50px;
+    margin-left: 50%;
+}
+.banner h1{
+    color: #25a2c3;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+.banner p{
+    font-size:1em;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+.notebook{
+    display: inline-block;
+    width: 20%;
+}
+.bg{
+    padding: 55px;
+    border-radius: 60%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+
+
+.hero{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-left: 390px;
+}
+
+
+.hero .tect{
+    padding: 25px;
+    color: #25a2c3;
+    font-size: 2em;
+    font-weight: 700;   
+}
+.hero .text{
+    text-align: center;
+    font-size: 1em;
+}
+
+.info{
+    width: 100%;
+    background-color: #f04c2f;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    
+}
+.info p{
+    padding: 5px; 
+    font-size: 1.2em; 
+}
+
+.info span{
+    font-size: 0.6em;
+}
+
+.container .crd{
+    display: inline-block;
+    width: 30%;
+    padding: 50px;  
+    
+}
+
+.descrip{
+    text-align: center;
+    color: #25a2c3;
+    font-size: 0.8em;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+   
+}
+
+.descrip p{
+    color: black;
+    padding: 5px;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 20px;
+}
+.footer .titt-footer{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 450;
+}
+.icon i{
+    color: white;   
+}
+
+.icon a{
+    color: white;
+    padding: 5px;
+}
+
+.copy{
+    width: 18%;
+    border-top: 1px solid white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px; 
+}
+.copy p{
+    color: white;   
+}
+
+.icon .links-ico{
+    text-decoration: none;
+}

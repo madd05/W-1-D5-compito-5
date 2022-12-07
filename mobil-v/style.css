@@ -129,3 +129,7 @@ span{
 .copy p{
     color: white;   
 }
+
+.icon .links-ico{
+    text-decoration: none;
+}
